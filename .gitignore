@@ -1,6 +1,27 @@
-data/raw/
-data/processed/
+# Ignore raw and processed datasets but keep folder structure
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+data/final/*
+!data/final/.gitkeep
+
+# Python
 __pycache__/
+*.pyc
 .ipynb_checkpoints/
+
+# Environment
 .env
 .venv/
+venv/
+
+# Model files
+*.pkl
+*.joblib
+
+# System files
+.DS_Store
+Thumbs.db
