@@ -25,3 +25,5 @@ venv/
 # System files
 .DS_Store
 Thumbs.db
+ba_1.sql
+postgree1.sql
